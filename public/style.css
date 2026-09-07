@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f5f9;
+    color: #333;
+}
+
+header {
+    background-color: #2563eb;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin-bottom: 0;
+}
+
+main {
+    width: 90%;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+.card {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 0;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2563eb;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+.clear {
+    background-color: #dc2626;
+    margin-left: 10px;
+}
+
+.clear:hover {
+    background-color: #b91c1c;
+}
+
+.queue-item {
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #f1f5f9;
+    border-radius: 5px;
+}
+
+.queue-number {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.ticket {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #dcfce7;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.serving {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fef3c7;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+  }
